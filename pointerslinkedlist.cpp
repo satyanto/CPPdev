@@ -14,8 +14,22 @@ struct Node* current = NULL;
 
 struct Node {
     int number;
-    struct Node *link;
+    //struct Node *link;
 };
+
+
+typedef struct MyOwnCustomNode* Pointer;
+
+
+struct MyOwnCustomNode {
+    int leftnumber;
+    int rightnumber;
+
+    Pointer left;
+    Pointer right;
+};
+
+
 
 //   *pointer   is a way to initiate/declare a new pointer called 'pointer'   
 //   pointer*   returns the pointer... I'm guessing the address... should cout.  
