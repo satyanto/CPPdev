@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "__hash_table": "cpp",
-        "memory": "cpp"
+        "memory": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "thread": "cpp",
+        "chrono": "cpp"
     }
 }
